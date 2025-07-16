@@ -2,39 +2,112 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brazil Sweet</title>
-    <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brazil Sweet</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
   <header id="header">
-    <img id="header-img" src="https://scontent.fyyc2-1.fna.fbcdn.net/v/t39.30808-6/306332176_499485955517203_3005474148293665262_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=oiNEzTySZ6cQ7kNvgFzLw0A&_nc_zt=23&_nc_ht=scontent.fyyc2-1.fna&_nc_gid=AuRo6DwKBnTZMrDlqyFbwg2&oh=00_AYBzjaMyh_ZXHih6IkKtRPeZc8BscN4pusXFcXx_6DeodQ&oe=678C51BE" width="100" alt="name of a company that make brasilian deserts">
-    <nav id="nav-bar" >
+    <div class="logo">
+      <img id="header-img" src="logo.jpeg" width="100" alt="name of a company that make brasilian deserts">
+    </div>
+    <nav id="nav-bar">
       <ul>
         <li>
-          <a class="nav-link" href="#birthday cakes">Birthday Cakes</a>
-          </li>
-        <li>
-          <a class="nav-link" href="#desserts">Desserts</a>
-          </li>
+          <a class="nav-link" href="#features">Features</a>
+        </li>
         <li>
           <a class="nav-link" href="#sweets">Sweets</a>
-
-          </li>
+        </li>
+        <li>
+          <a class="nav-link" href="#pricing">Desserts</a>
+        </li>
       </ul>
     </nav>
-    </header>
-    <section id="birthday-cakes"></section>
-    <section id="desserts"></section>
-    <section>
-     <form id="form" action="https://www.freecodecamp.com/email-submit">
-      <input id="email" name="email" type="email" placeholder="digite email"></input>
-     <input id="submit" type="submit"></input>
+  </header>
+  <section id="hero">
+    <h2>Subscribe to our newsletter</h2>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <input id="email" name="email" type="email" placeholder="inform your email"></input>
+      <input id="submit" type="submit" value="Send"></input>
     </form>
-   </section>
-
-   <section id="sweets"
-    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/FcS-2fDKV7g?si=Nhh_7oYNjd_cusM0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </section>
+
+  <div class="container">
+    <section id="features">
+      <div class="grid">
+        <div class="icone">🇧🇷</div>
+        <div class="desc">
+          <div class="config">Authentic Brazilian Ingredients</div>
+          <div>
+            Our sweets and cakes are made with real ingredients imported from Brazil—like fresh coconut from the
+            Northeast,
+            creamy condensed milk, crunchy Brazil nuts, rich chocolate, and handcrafted brown sugar. Every recipe tells
+            a
+            story and brings a taste of home.
+          </div>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="icone">🚚</div>
+        <div class="desc">
+          <div class="">Fast & Secure Shipping Across Canada</div>
+          <div>
+            We carefully pack your orders to keep the flavor and freshness intact during transit. No matter where you
+            are
+            in Canada, you can enjoy a delicious slice of Brazil delivered right to your door.
+          </div>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="icone">⭐</div>
+        <div class="desc">
+          <div class="titulo"> Handcrafted Quality in Every Bite</div>
+          <div>
+            of our products are made in small batches using only high-quality, Brazilian ingredients. With attention
+            to detail and love in every step, we bring you the authentic taste of traditional homemade sweets.
+          </div>
+        </div>
+    </section>
+    <section id="sweets">
+      <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/FcS-2fDKV7g?si=Nhh_7oYNjd_cusM0"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+    <section id="pricing">
+      <div class="product" id="birthday-cake">
+        <div class="level">Birthday Cake</div>
+        <h2> $ 100</h2>
+        <ol>
+          <li>Chocolate Cake</li>
+          <li>Caramel  Cake</li>
+          <li>Ninho Cake</li>
+        </ol>
+        <button class="btn">Select</button>
+      </div>
+      <div class="product" id="desserts">
+        <div class="level">Traditional Cake</div>
+        <h2> $ 25</h2>
+        <ol>
+          <li>Corn Cake</li>
+          <li>Cassava Cake</li>
+          <li>Coconut Cake</li>
+        </ol>
+        <button class="btn">Select</button>
+      </div>
+      <div class="product" id="sweets">
+        <div class="level">Sweets</div>
+        <h2> $ 25</h2>
+        <ol>
+          <li>Chocolate Trufs</li>
+          <li>Coconut Trufs</li>
+          <li>Ninho Trufs</li>
+        </ol>
+        <button class="btn">Select</button>
+      </div>
+    </section>
+  </div>
 </body>
